@@ -8,19 +8,10 @@ A megvalósítás során egy  softwaret hozunk létre adatbázissal az sqllite a
 options - a menü elnevezések és jogosultsági szintek meghatározásához , jelszó módosítás.
 megrendelések - a tartalmak tárolására az ügyfelekhez kapcsolva.
 
-A megvalósított weboldal a következő modulokra bontható:
--authentikáció: a felhasználó be- és kiléptetését végzi (mindenki számára)
--hírolvasó: az oldalon közzétett tartalmak megjelenítése (bejelentkezett felhasználók számára)
--tartalom beküldés: a tartalmak közzétételére (szerkesztő felhasználók számára)
--felhasználókezelés: felhasználók felvételére, tiltására, módosítására. (adminisztrátor felhasználók számára)
-
-Authentikáció modul:
-index.php-t elindítva jutunk el a bejelentkező felületig, ahol felhasználónév és jelszó megadása után lehet bejelentkezni.
-A folyamat megvizsgálja, hogy a megadott adatok egyeznek-e az adatbázisban lévő adatokkal.
-
-Hírolvasó modul:
-
-Tartalom beküldés:
+A megvalósított program  a következő modulokra bontható:
+-Login felület : felhasználó ki és beléptetése
+-megrendelés beküldés: a tartalmak közzétételére (szerkesztő felhasználók számára)
+-felhasználókezelés: felhasználók felvételére, törlésére, módosítására. (adminisztrátor felhasználók számára)
 
 Felhasználó kezelés:
 Egyrész minden bejelentkezett felhasználónak lehetősége van megváltoztatni a jelszavát a menü "Jelszóváltoztatás" menüpontjában.
@@ -31,7 +22,8 @@ szereplő dolgozókat, illetve fel is vehetnek újat.
 Új felhasználó rögzítése egy új formon történik. Meg kell adni a nevet, felhasználónevet és az email címet, valamint a kezdeti jelszót.
 Ezután megjelenik a felhasználó a listában, ahonnan el lehet érni a szerkesztés funkciót az adatok módosítására.
 
-A rendszer PHP és HTML nyelven készült, MySQL adatbáziskezelő rendszert használ.
+A rendszer c# nyelven írodott , és wpf környezetben készült el a grafikus környezet, 
+illetve sqllite adatbáziskezelő rendszert használ.
 
 A teljesítés befejezési időpontja legkésőbb a szerződés megkötésétől számított 30 naptári nap.
 A szerződést megkötésének a határideje 2018.01.15 .
