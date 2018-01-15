@@ -1,0 +1,39 @@
+A fejlesztés egy megrendelés kezelő programot  valósít meg. 
+Célja, hogy az XY Kft. belső kommunikációját javítsa.
+A rendszernek 2 szintű jogosultságot kell kezelnie (szakértő, adminisztrátor). 
+
+A megvalósítás során egy  softwaret hozunk létre adatbázissal az sqllite adatbázisban az adatok tárolására. 
+3 tábla kerül megvalósításra:
+ügyfelek - a felhasználók adatainak tárolására (id, név, felhasználónév, email, jelszó-hash, azonosito.
+options - a menü elnevezések és jogosultsági szintek meghatározásához , jelszó módosítás.
+megrendelések - a tartalmak tárolására az ügyfelekhez kapcsolva.
+
+A megvalósított weboldal a következő modulokra bontható:
+-authentikáció: a felhasználó be- és kiléptetését végzi (mindenki számára)
+-hírolvasó: az oldalon közzétett tartalmak megjelenítése (bejelentkezett felhasználók számára)
+-tartalom beküldés: a tartalmak közzétételére (szerkesztő felhasználók számára)
+-felhasználókezelés: felhasználók felvételére, tiltására, módosítására. (adminisztrátor felhasználók számára)
+
+Authentikáció modul:
+index.php-t elindítva jutunk el a bejelentkező felületig, ahol felhasználónév és jelszó megadása után lehet bejelentkezni.
+A folyamat megvizsgálja, hogy a megadott adatok egyeznek-e az adatbázisban lévő adatokkal.
+
+Hírolvasó modul:
+
+Tartalom beküldés:
+
+Felhasználó kezelés:
+Egyrész minden bejelentkezett felhasználónak lehetősége van megváltoztatni a jelszavát a menü "Jelszóváltoztatás" menüpontjában.
+Ehhez meg kell adnia a jelenlegi jelszavát, majd kétszer az újat. Ezután az adatbázisba is bekerül a változás titkosítva.
+
+Másrészt az 1-es role_id-val rendelkező adminisztrátorok látnak egy adminisztráció menüpontot is, ahol láthatják az adatbázisban
+szereplő dolgozókat, illetve fel is vehetnek újat.
+Új felhasználó rögzítése egy új formon történik. Meg kell adni a nevet, felhasználónevet és az email címet, valamint a kezdeti jelszót.
+Ezután megjelenik a felhasználó a listában, ahonnan el lehet érni a szerkesztés funkciót az adatok módosítására.
+
+A rendszer PHP és HTML nyelven készült, MySQL adatbáziskezelő rendszert használ.
+
+A teljesítés befejezési időpontja legkésőbb a szerződés megkötésétől számított 30 naptári nap.
+A szerződést megkötésének a határideje 2018.01.15 .
+Az üzembehelyezés végső időpontja 2018.02.14 .
+A támogatási szerződés időtartalmának a kezdete a teljesítéstől számított 24 hónap(legkésőbb 2020.02.14).
