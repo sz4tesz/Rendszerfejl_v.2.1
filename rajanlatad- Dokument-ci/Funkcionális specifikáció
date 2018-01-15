@@ -1,0 +1,24 @@
+Funkcionális specifikáció
+Az XY Kft részére készített ügyféladatbáziskezelő program projekt célja, hogy a cég,
+és a felhasználói között jobb információáramlás jöjjön létre, segítse a cégen belül a megrendelések megfelelő ütemtervezését.
+Nem célja, hogy a felhasználók az információkra publikusan reagálni tudjanak.
+Jelenleg az XY Kft a központi kommunikációra emaileket és papír alapú hirdetőfalakat használ a megrendelések ütemezésére céges szinten,
+így az információk nem jutnak el mindenkihez időben .
+Remélik ezzel a rendszerrel javul a kommunikáció. 
+
+
+Használati esetek:
+A vállalat számítógépein Windows operációs rendszer fut ezen kell futnia a programnak.
+A cég egy belső adatbázisba menti el az adatok sqlliteal , később mysql-el.
+
+Kettőféle használati esetet különböztetünk meg:
+1. Felhasználó/látogató:
+Körülbelül 100 fő érintett, irodai dolgozók, informatikai alapismeretekkel rendelkeznek. 
+A rendszer használata során az adatbázisba bevitt elérhető információkat szeretnék elérni, elolvasni.
+A rendszerbe adatot nem visznek fel.
+
+2. Adminisztrátor szint:
+A rendszer használata során a tartalmakat szerkeszteni, törölni tudják, valamint a felhasználókezelés modulban felhasználókat
+létrehozni, illetve módosítani is tudnak.
+Karbantartások során a rendszert leállíthatják.
+A rendszer összes változásáról értesíteni kell a csoportot.
