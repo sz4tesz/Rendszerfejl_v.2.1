@@ -1,0 +1,44 @@
+Tisztelt XY!
+
+Az alábbi költségterveket hoztuk létre az ön árajánlat kérése alapján amikből választhat.
+
+Alapcsomag:	-Tartalmazza az out of the box modellt az ütemtervben lejegyzett 1-es low prioritású funkciókkal.
+            -egységár (HUF) 
+            -Mennyiség	Nettó ár (HUF)
+            -Mennyiség  Bruttó ár (HUF)
+						
+Optimális:	-Tartalmazza az out of the box modellt az ütemtervben lejegyzett 1-es low és 2-es medium prioritású funkciókkal.
+            -egységár (HUF) 
+            -Mennyiség	Nettó ár (HUF)
+            -Mennyiség  Bruttó ár (HUF)
+            
+Platina:	-Tartalmazza az out of the box modellt az ütemtervben lejegyzett 1-es,2-es és 3-as high prioritású funkciókkal
+           és minden configuration pontban specifikált változással.
+            -egységár (HUF) 
+            -Mennyiség	Nettó ár (HUF)
+            -Mennyiség  Bruttó ár (HUF)
+						
+
+A termék megfelel a vonatkozó europai uniós szabályoknak és irányelveknek.
+A 24 hónapos karbantartás időszaka alatt folyamatosan követve az újabb jogi szabályokat.
+
+
+Az árajanlat kérésből az alábbi műszaki adatokat fogja tartalmazni:
+- XY Kft arculatába és informatikai környezetébe maximális illesztkedés.
+- A program sqllite használata.
+- A 3 jogosultsági szint kezelése
+- Felhasználókhoz tartozó adatok kezelése.
+
+Az alábbi módellek alkotják :
+-authentikáció: a felhasználó be- és kiléptetését végzi (mindenki számára)
+-hírolvasó: az oldalon közzétett tartalmak megjelenítése (bejelentkezett felhasználók számára)
+-tartalom beküldés: a tartalmak közzétételére (szerkesztő felhasználók számára)
+-felhasználókezelés: felhasználók felvételére, tiltására, módosítására. (adminisztrátor felhasználók számára)
+
+
+
+Fizetési mód: Készpénz átutalás
+
+Implementálási határidő: 2018.01.19
+
+Az árajánlat érvényessége: 1 hónap
