@@ -1,0 +1,72 @@
+Felhasználói dokumentáció
+
+	Feladat:
+		Az XY Kft. cég számára létrehozott megrendeléskezelő felület.
+	
+	Futási környezet leírása:
+		Windows operációs rendszeren futatott , sqllite szükséges az első fázisban hozzá , később mssql-es adatbázissal lesz össze kötve
+		
+		A rendszerkövetelmény Pentium 4 vagy újabb processzor.  2GB RAM, 34Mb hely a merevlemezen.
+		
+	Szerepkörök:
+		1. Adminisztrátor - Tartalmakat hozhatnak létre
+		2. Felhasználó - programban található információk elérése, olvasása.
+		
+	Használat:
+		A rendszer használata bejelentkezéshez kötött. A sikeres bejelentkezés után a felhasználó a menüsor
+    segítsével navigálhat az oldalon. Az alábbi menüpontokban ezeket fogjuk részletesen leírni.
+		
+		1. Bejelentkezés
+			 A bejelentkezéshez mindenkinek adott hozzáférést a XY Kft, így minden alkalmazottjának személyre szabott, egyedi azonosítója van, ami rendszerint az alkalmazott nevéből lett előllítva. A jelszavát kérje felettesétől, melyet első bejelentkezés után ajánlott megváltoztatni. A rendszer nem lépteti ki a felhasználót a böngésző bezárása esetén.
+			
+			A bejelentkezés folyamata:
+				Az egyedi felhasználónevet az első beviteli mezőbe kell beírni, amely "username" felirattal jelöli a várt adatot.
+        A jelszavát a következő elembe kell írni,amely a "password" felirattal van ellátva.
+				
+				A helyes adatok megadása után a "Login" gombra történő kattintásra a rendszer belépteti a felhasználót.
+        Amennyiben az adatok hibásat voltak, a rendszer jelzi ezt a felhasználó felé.
+			
+		2. Jelszó módosítás
+			A belépés után van lehetőség a jelszó módosítására a beállítások menüpont alatt a jelszóváltoztatás parancsal.
+		3. Adminisztráció
+			Ehhez a menüponthoz csak a Rendszergazdának van jogosutsága. Ezen az oldalon módosíthatóak a felhasználók, 
+      illetve itt lehetséges az új felhasználó felvitele.
+			
+			a, Felhasználó szerkesztése
+				Az adott felhasználóhoz tartozó "Szerkesztés" gomb megnyomása után van lehetőségünk az adatok megváltoztatására.
+        Itt lehetőség van a név, felhasználónév, 
+        szerepkör módosítására, illetve adott esetben törölni az adott személyt.
+        Az "update" gomb megnyomása után az adatok megváltoznak.
+			
+			b,  Új felhasználó felvitele
+				Az "Új felhasználó" gomb megnyomása után lehetőségünk van új személy felvitelére. Egy űrlapot kell kitöltenünk a megfelelő adatokkal. A "Felvétel" gombra kattintás után frissül az adatbázis az új személlyel.
+				
+		4. Kijelentkezés
+			A "Kijelentkezés" feliratva kattintva kiléphetünk a rendszerből.
+		
+	Hibaüzenetek:
+		A rendszer használata során előfordulhatnak hibaüzenetek. Az alábbi hibaüzenetekre kínálunk egy lehetséges megoldást.
+			1. Bejelentkezés
+				a, Hibás jelszó
+					A felhasználónév helyesen lett megadva, ellenben a megadott jelszó nem egyezik az adatbázisban lévővel. A jelszó újbóli beírása orvosolhatja a problémát. Ha többszöri próbálkozás esetén is ugyan ezt az hibaüzenetet kapjuk, fordoljunk a rendszergazdához új jelszó igénylése miatt.
+			
+			2. Jelszó módosítás
+				a, Hibás jelszó
+					A beírt régi jelszó nem egyezik a fiókhoz tartozó jelszóval.  Kérjük próbálja meg újra beírni a jelenlegi jelszavát, nagyobb figyelemmel. Amennyiben továbbra is ezt a hibaüzenetet kapja, kérjük forduljon a rendszergazdához. Illetve az új jelszó minimum 8 karakter hosszú legyen, kérjük vegye figyelembe ezt is.
+				b, A két jelszó nem egyezik
+					A megadott új jelszó, és az új jelszó ismételt megadása nem egyezik. Próbálja meg újra megadni az új jelszót. Amennyiben továbbra is ezt a hibaüzenetet kapja, kérjük forduljon a rendszergazdához.
+			3. Új felhasználó felvitele
+				a, Add meg a felhasználóneved
+					A felhasználónév megadása kötelező, kérjük töltse ki.
+				b, Add meg az e-mail címed
+					Az e-mail cím megadása kötelező, kérjük töltse ki.
+				c, Add meg a teljes neved
+					A teljes név megadása kötelező, kérjük töltse ki.
+				d, Hibás jelszó
+					A jelszó mező kitöltése kötelező, és minimum 8 karakter hosszú legyen.
+				e, A két jelszó nem egyezik
+					A megadott új jelszó, és az új jelszó ismételt megadása nem egyezik. Kérjük próbálja meg újra beírni.
+					
+				
+			
+		
