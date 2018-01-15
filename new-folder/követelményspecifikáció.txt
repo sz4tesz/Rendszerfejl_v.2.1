@@ -1,0 +1,14 @@
+Követelményspecifikáció
+
+A XY Kft egy 100 fős vállalat, ami két telephelyen működik. A cégnek jelenleg nincs kiépeítve belső megrendelés 
+információkra kiépített locális adatbázis, amely a az ügyfeleketés a megrendeléseket össze kövtve tudja követni a meglévő ,
+teljesült és a várható megrendelések folyamatát.
+
+A blablabla fontos projekt egyik feladata a kommunikáció javítása. Reményeink szerint az új rendszerrel fejleszteni tudunk ezen.	
+
+Az elkészült programot fontos, hogy csak irodai hálozatról lehessen elérni .
+A programban 2 jogosultság rendszert kell kiépitenünk.
+Admin: Ez a jogosultság tudja módosítani a meglévő/lezárt megrendeléseket ,illetve  a felhasználókat .
+Adminisztrátor : Elsődleges feladata az új megrendelések hozzá adása , a meglévők rendszerezése .
+
+A rendszerben lehessen közérdekű híreket létrehozni, képeket feltölteni.
