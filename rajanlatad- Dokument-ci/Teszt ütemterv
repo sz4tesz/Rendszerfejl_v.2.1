@@ -1,1 +1,19 @@
+Tesztelési folyamat és az időbeli ütemezése:
 
+Első fázis :
+A kifejlesztett funkcionalítású program tesztelésének lezárása , átadás megkezdése
+
+Második fázis :
+A rendszer átadás folyamatának lezárása
+(Rendszer specifikus  átadás-átvételi  tesztek elvégzése,  eredmények  ellenőrzése és ellenjegyzése.)
+
+Harmadik fázis:
+Az  üzembe  állításhoz  szükséges dokumentációk  elkészítése 
+(felhasználói  kézikönyv, üzemeltetési   dokumentáció, módszertani útmutató)
+
+Negyedik fázis :
+Az  üzembe  állításhoz  szükséges dokumentációk    Megrendelőnek történő    átadása    
+(felhasználói kézikönyv,  üzemeltetési dokumentáció,  módszertani útmutató)
+
+Ötödik fázis :
+Az elkészített és tesztelt rendszer éles üzembe helyezése
