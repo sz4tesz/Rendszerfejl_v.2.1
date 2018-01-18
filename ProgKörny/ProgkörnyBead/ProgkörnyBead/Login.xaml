@@ -1,0 +1,36 @@
+﻿<Window x:Class="ProgkörnyBead.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login" Height="350" Width="500
+        " FontSize="16" Background="Black"
+         
+        WindowStyle="None"
+              
+        ResizeMode="NoResize" >
+
+
+    <Grid>
+        <Image Source="/ProgkörnyBead;component/Images/Cool-White-Background.jpg" Stretch="UniformToFill" />
+        <StackPanel Margin="25" >
+            <Label Content="Login" Foreground="Black"  FontSize="20" HorizontalAlignment="Left"/>
+            <Separator/>
+            <Label Content="Felhasználónév:" Foreground="Black" FontStyle="Italic" />
+            <TextBox x:Name="txtBxuserName" Background="DeepSkyBlue" Foreground="Black" FontSize="18"/>
+            <Label Content="Jelszó:" Foreground="Black" FontStyle="Italic" />
+            <PasswordBox x:Name="passBxPassword" Background="DeepSkyBlue" Foreground="Black" FontSize="18" PasswordChar="*"/>
+            <Button Content="Login"  x:Name="btnLogin" FontWeight="Bold" Background="AliceBlue" Click="btnLogin_Click" Margin="285,15,15,0" IsDefault="True"/>
+
+        </StackPanel>
+        <Label Content="Hibás kód!" HorizontalAlignment="Left" Margin="25,195,0,0" VerticalAlignment="Top" Width="185" Height="36" Name="lblfrgtPass" Visibility="Hidden" FontSize="18"/>
+        <Label Content="Loading ..." HorizontalAlignment="Left" Margin="147,236,0,0" Visibility="Hidden" VerticalAlignment="Top" Width="185" Height="36" Name="lblLoading"  FontSize="18"/>
+        <Button  HorizontalAlignment="Left" Margin="458,0,0,307"  Width="42" x:Name="btnLeave" Click="btnLeave_Click">
+            <Button.Content>
+
+                <Image Source="/ProgkörnyBead;component/Images/exit.png" Height="43" Width="40" Stretch="UniformToFill" />
+
+
+            </Button.Content>
+        </Button>
+    </Grid>
+
+</Window>

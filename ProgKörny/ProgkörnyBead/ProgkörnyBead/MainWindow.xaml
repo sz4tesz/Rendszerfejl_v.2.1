@@ -1,0 +1,27 @@
+﻿<Window x:Class="ProgkörnyBead.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="550">
+    <Grid>
+        <Image Source="/ProgkörnyBead;component/Images/sqlpic.png" Stretch="UniformToFill" />
+        <StackPanel Margin="5" >
+            <Label Content="Megrendelések" Foreground="Black"  FontSize="20" HorizontalAlignment="Center"/>
+            <Label Content="Id" Foreground="Black" FontStyle="Italic" Margin="0,0,375,0" RenderTransformOrigin="0.88,1.847" />
+            <TextBox x:Name="txtId" Background="WhiteSmoke" Foreground="Black" FontSize="18" Margin="0,0,327,0"/>
+            <Label Content="Termék" Foreground="Black" FontStyle="Italic" />
+            <TextBox x:Name="txtTerm" Background="WhiteSmoke" Foreground="Black" FontSize="18" Margin="0,0,327.2,0"/>
+            <Label Content="Vevő azonositó" Foreground="Black" FontStyle="Italic" />
+            <TextBox x:Name="txtVeaz" Background="WhiteSmoke" Foreground="Black" FontSize="18" Margin="0,0,327.2,0"/>
+            <Label Content="Darabszám" Foreground="Black" FontStyle="Italic" />
+            <TextBox x:Name="txtnumb" Background="WhiteSmoke" Foreground="Black" FontSize="18" Margin="0,0,327.2,0"/>
+            <Label Content="Összeg" Foreground="Black" FontStyle="Italic" />
+            <TextBox x:Name="txtossz" Background="WhiteSmoke" Foreground="Black" FontSize="18" Margin="0,0,327.2,0"/>
+            
+
+        </StackPanel>
+        <Button Content="save"  x:Name="btnsave" FontWeight="Bold" Background="AliceBlue" Margin="435,207,10.2,83.8" Click="btnsave_Click"  />
+        <Button Content="update"  x:Name="btnupd" FontWeight="Bold" Background="AliceBlue" Margin="435,281,10.2,9.8" Click="btnupd_Click"  />
+        <Button Content="delete"  x:Name="btndel" FontWeight="Bold" Background="AliceBlue" Margin="435,244,10.2,46.8" Click="btndel_Click"  />
+        <Button Content="Back"  x:Name="btnback" FontWeight="Bold" Background="#00000000" Margin="440,5,5.2,285.8"  Foreground="White" BorderBrush="White" Click="btnback_Click" />
+    </Grid>
+</Window>
